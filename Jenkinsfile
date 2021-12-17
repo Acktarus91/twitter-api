@@ -21,6 +21,15 @@ node {
 		}
 	}
 
+	stage('Quality Analysis') {
+		withSonarQubeEnv('Sonar') {
+			withMaven(maven: 'maven') {
+				sh "mvn sonar:sonar"
+			}
+		}
+	}
+	
+	
 	stage('Build Docker Image') {
 		withMaven(maven: 'maven') {
 			sh "mvn jib:build"
