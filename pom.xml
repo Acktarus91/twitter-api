@@ -13,7 +13,7 @@
 	<properties>
   		<sonar.organization>acktarus91</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.login 087cdc8dd0f9644aab1ef89aa6adf5c500ba7ab6</sonar.login>
+		# <sonar.login 087cdc8dd0f9644aab1ef89aa6adf5c500ba7ab6</sonar.login>
 		<sonar.projectkey:087cdc8dd0f9644aab1ef89aa6adf5c500ba7ab6</sonar.projectkey>
 		<sonar.organization> ORG </sonar.organization>
 	</properties>
