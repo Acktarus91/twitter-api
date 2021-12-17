@@ -88,7 +88,7 @@
 					</from>
 					<to>
 						<image>
-							registry.hub.docker.com/bnasslahsen/devops-repo
+							registry.hub.docker.com/acktarus/devops-repo
 						</image>
 					</to>
 					<container>
